@@ -9,8 +9,8 @@ teeth = 'White'
 hair = 'Brown'
 
 puts "Let's talk about #{name}."
-puts "He's #{height} inches or #{height_in_cm} cm tall."
-puts "He's #{weight} pounds or #{weight_in_kg} kg heavy."
+puts "He's #{height} inches or #{height_in_cm.round(2)} cm tall."
+puts "He's #{weight} pounds or #{weight_in_kg.round(2)} kg heavy."
 puts "Actually that's not too heavy."
 puts "He's got #{eyes} eyes and #{hair} hair."
 puts "His teeth are usually #{teeth} depending on the coffee."
