@@ -4,12 +4,12 @@ puts "I will now count my chickens:"
 #print number of hens
 puts "Hens #{25 + 30 / 6}"
 #prints number of rooster
-puts "Roosters #{100-25 * 3 % 4}"
+puts "Roosters #{100-25 * 3.0 % 4}"
 #prints that I'm about to count eggs
 puts "Now I will count the eggs:"
 
 #prints number of eggs
-puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+puts 3 + 2 + 1 - 5 + 4 % 2.0 - 1 / 4 + 6
 
 #puts this
 puts "Is it true that 3 + 2 < 5 - 7?"
