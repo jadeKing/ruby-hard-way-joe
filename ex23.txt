@@ -1,0 +1,23 @@
+https://github.com/programthis/StickyBookmarks/blob/master/app/controllers/books_controller.rb
+
+line 1: Opens http ??
+
+line 2: BooksController class inherets from Appcontr..
+
+line 4... :create method which does something to a database of books
+
+14 : create method which makes instance variables
+
+19 : another method which maybe creates a new instance variable for a new book
+
+
+https://github.com/twilio/twilio-ruby/blob/master/lib/twilio-ruby.rb
+
+Hell of a lot of require
+
+
+line 83: create module Twilio
+84: extend stuff
+91: create method to Pre-configure with account SID and auth token so that you don't need to pass them to various initializers each time.
+
+97: more configuration.
