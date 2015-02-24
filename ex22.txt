@@ -42,7 +42,7 @@ truncate(0)            empties the file to zero bytes
 .exist?               checks whether a file exists
 *args                 accepts unspecified args, adds to array
 end                   ends a code block/method/loop etc
-
+<<END                 heredocs - essentially creates a mini file
 
 
 
