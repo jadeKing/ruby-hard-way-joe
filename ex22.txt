@@ -1,0 +1,48 @@
+*   Asterix      Multiply
+/   fward slash  Divide
++   plus         add
+-   hyphon       minus
+()  Parenthises  Arguments/Ordering/Parameters
+%   Mondulo      Returns the remainder after a division
+**  Dble Asteriks To the power of
+..  Dble Dot     Call a range
+... Trble Dot     As above but misses out the last one.
+#   Pound/Hash/Oc Comments
+#{} String IntrPol  Call code in a string and convert string
+=   equals        initialises variables
+==  dble equals   checks equality
+>   greater than  greater than
+<                Less than
+<=                less than or equal
+>=                greater than or equal
+def               defining a function
+\   escape char   escape characters eg: \n
+$stdin            standard input
+puts puts string  prints string (with new line)
+print            prints string (without new line)
+gets             asks user for input
+chomp             removes new line at end
+ARGV              Argument Variables array from variables given CL
+""    dble quotes formatted string
+''   singles quotes literal string
+"""   treble dbl qs   multi line string
+.to_i/f/s          converts to integer, float, string
+,     comma        used to seperate arguments/variables
+FILE               file class
+open(a, 'w')             open the 'a' file in writable way
+r,w,a                 used in the above: read, (over)write, append
++                     as above makes read writer
+read                returns content of a file
+close               closes a file
+seek                used to seek to a particular byte in file
+.first              return first value in an array
+readline            returns a particular line in file
+truncate(0)            empties the file to zero bytes
+.write('s')               writes 's' to a file
+.exist?               checks whether a file exists
+*args                 accepts unspecified args, adds to array
+end                   ends a code block/method/loop etc
+
+
+
+
