@@ -43,6 +43,7 @@ truncate(0)            empties the file to zero bytes
 *args                 accepts unspecified args, adds to array
 end                   ends a code block/method/loop etc
 <<END                 heredocs - essentially creates a mini file
+=~        regexp      checks to see if reg exp matches string, returns offset
 
 
 
