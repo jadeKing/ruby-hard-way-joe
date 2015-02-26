@@ -9,4 +9,5 @@ Dict.set(countries, 'Wales', 'Cardiff')
 puts "England's capital city is #{Dict.get(countries, 'England')}"
 puts "Wales' capital city is #{Dict.get(countries, 'Wales')}"
 
-Dict.list(countries)
+#Dict.list(countries)
+Dict.dump(countries)

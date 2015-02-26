@@ -64,5 +64,11 @@ module Dict
       end
     end
   end
+
+  def Dict.dump(aDict)
+    aDict.each do |x|
+      puts x
+    end
+  end
 end
 
